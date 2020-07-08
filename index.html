@@ -3,13 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-School</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Good Evening Bangladesh</h1>
-    <p>How are you today</P>
-    <input type="text">
-    <br>
-    <button>Click Me</button>
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Others</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-button" href="#">Sing in</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 d-flex justify-content-center align-items-center content-padding">
+                    <div>
+                        <h5>Are you ready to Learn?</h5>
+                        <h1>Learn With fun on <span class="color-text">any schedule</span></h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                        <a class="green-button" href="#">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 sizing-banar">
+                    <img class="img-fluid" src="photos/illustration.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 text-center about-section">
+                <div class="col mb-4">
+                  <div class="card hover">
+                    <img class="img-fluid" src="icons/book.png" class="card-img-top" alt="...">
+                    <div>
+                      <h4 class="card-title">1500+ Topic</h4>
+                      <a href="#">Learn Anythings</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card hover">
+                    <img class="img-fluid" src="icons/Student.png" class="card-img-top" alt="...">
+                    <div>
+                        <h4 class="card-title">1800+ Students</h4>
+                        <a href="#">Learn Anythings</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card hover">
+                    <img class="img-fluid" src="icons/Test.png" class="card-img-top" alt="...">
+                    <div>
+                        <h4 class="card-title">9K+ Test Token</h4>
+                        <a href="#">Learn Anythings</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card hover">
+                    <img class="img-fluid" src="icons/Students.png" class="card-img-top" alt="...">
+                    <div>
+                        <h4 class="card-title">2000+ Student</h4>
+                        <a href="#">Learn Anythings</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="course">
+        <div class="container">
+            <h2 class="text-center">Online Courses</h2>
+            <div class="card-deck">
+                <div class="card course-card">
+                  <img class="img-fluid" src="photos/morder-pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">Modern Psychology</h4>
+                    <p class="card-text">Designation</p>
+                    <a class="color-button" href="#">Buy Now</a>
+                    <div class="d-flex justify-content-between both">
+                        <div class="calender d-flex">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                            <p>  Start 20 April, 2021</p>
+                        </div>
+                        <div class="group d-flex">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <p>  60 seats</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card course-card">
+                  <img class="img-fluid" src="photos/morder-psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">Modern Psychology</h4>
+                    <p class="card-text">Designation</p>
+                    <a class="color-button" href="#">Buy Now</a>
+                    <div class="d-flex justify-content-between both">
+                        <div class="calender d-flex">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                            <p>  Start 20 April, 2021</p>
+                        </div>
+                        <div class="group d-flex">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <p>  60 seats</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card course-card">
+                  <img class="img-fluid" src="photos/morder-pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">Modern Psychology</h4>
+                    <p class="card-text">Designation</p>
+                    <a class="color-button" href="#">Buy Now</a>
+                    <div class="d-flex justify-content-between both">
+                        <div class="calender d-flex">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                            <p>Start 20 April, 2021</p>
+                        </div>
+                        <div class="group d-flex">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <p>60 seats</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <h2 class="text-center">Testimonial</h2>
+            <div class="row d-flex justify-content-center align-items-center">
+
+                    <div class="col-md-4 col-sm-12 man">
+                        <img src="photos/man.png" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <p class="text-left">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <p>Lorem ipsum dolor sit amet consec adipisicing elit. Porro, consectetur.</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <ul class="some-list">
+                  <li><a href="#"><b>Courses</b></a></li>
+                  <li><a href="#">Graphicg Design</a></li></li>
+                  <li><a href="#">Web Design</a></li></li>
+                  <li><a href="#">Busniess</a></li></li>
+                  <li><a href="#">Marketing</a></li></li>
+                  <li><a href="#">Engineering</a></li></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <ul class="some-list">
+                  <li><a href="#"><b>Courses</b></a></li>
+                  <li><a href="#">Graphicg Design</a></li></li>
+                  <li><a href="#">Web Design</a></li></li>
+                  <li><a href="#">Busniess</a></li></li>
+                  <li><a href="#">Marketing</a></li></li>
+                  <li><a href="#">Engineering</a></li></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <ul class="some-list">
+                  <li><a href="#"><b>Courses</b></a></li>
+                  <li><a href="#">Graphicg Design</a></li></li>
+                  <li><a href="#">Web Design</a></li></li>
+                  <li><a href="#">Busniess</a></li></li>
+                  <li><a href="#">Marketing</a></li></li>
+                  <li><a href="#">Engineering</a></li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <p class="copyright">Copyright © 2020 Programming-hero.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1d656618f8.js"></script>
 </body>
 </html>
